@@ -95,6 +95,11 @@ nav a{
 
 /* Start of the middle area under header*/
 
+#container1{
+	margin:0 auto;
+	border:solid black 1px;
+}
+
 #features, #about{
 	width:25%;
 	margin:0% 10% 2% 10%;
@@ -104,22 +109,25 @@ nav a{
 
 /* styling for middle image*/
 .middle-img{
-	border: solid black;
-	width:100%;
+	width:80%;
 	z-index: 0;
-	margin:3% 0;
+	margin: 0 3% 0% 3%;
 	padding:3%;
 }
 
 /* styling for bottom sections*/
 
-#services, #product, #vision{
-	width:25%;
-	margin: 3%;
-	padding:0% 3% 0 3%;
-	border: black solid;
-	display: inline-block;
+#container2{
+	border:blue solid;
+	margin:0 auto;
+}
 
+#services, #product, #vision{
+	border: blue solid; 
+	width:25%;
+	margin: 3% 4% 3% 4%;
+	padding:0% 3% 0% 3%;
+	display: inline-block;
 }
 
 /* Styling for contact*/
