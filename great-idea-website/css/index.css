@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Start of the nav styling */
 
 nav a{
+	
 	margin:5%;
 	color: grey;
 }
@@ -75,7 +76,7 @@ nav a{
 
 /*start of the header styling*/
 #title {
-	padding:5%;
+	padding:3%;
 	color:orange;
 	border:solid;
 }
@@ -101,10 +102,38 @@ nav a{
 	display: inline-block;
 }
 
+/* styling for middle image*/
 .middle-img{
 	border: solid black;
 	width:100%;
 	z-index: 0;
 	margin:3% 0;
-	padding:1%;
+	padding:3%;
+}
+
+/* styling for bottom sections*/
+
+#services, #product, #vision{
+	width:25%;
+	margin: 3%;
+	padding:0% 3% 0 3%;
+	border: black solid;
+	display: inline-block;
+
+}
+
+/* Styling for contact*/
+
+#contact{
+	margin-left: 3%;
+}
+
+#copyright{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.bottom_ps{
+	margin-top:1%;
+	margin-bottom: 1%;
 }
