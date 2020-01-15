@@ -96,14 +96,15 @@ nav a{
 
 #features, #about{
 	width:25%;
-	margin:3%;
+	margin:0% 10% 2% 10%;
 	border: black solid;
 	display: inline-block;
 }
 
-#services, #about, #vision{
-	width:25%;
-	border: black solid;
-	display: inline-block;
-
+.middle-img{
+	border: solid black;
+	width:100%;
+	z-index: 0;
+	margin:3% 0;
+	padding:1%;
 }
