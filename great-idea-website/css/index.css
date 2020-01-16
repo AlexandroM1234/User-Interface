@@ -106,30 +106,35 @@ nav a{
 /* Start of the middle area under header*/
 
 #container1{
-	margin:0 3%;
-	border:solid black 1px;
+	margin:0% 3%;
+	border-top: black solid 1px;
 }
 
-#features, #about{
-	width:25%;
-	margin:0% 10% 2% 10%;
-	border: black solid;
+#features{
+	width:40%;
+	margin:2% 3% 2% 3%;
+	display: inline-block;
+}
+
+#about{
+	width:40%;
+	margin:0% 0% 0% 12%;
 	display: inline-block;
 }
 
 /* styling for middle image*/
-.middle-img{
-	width:80%;
-	z-index: 0;
-	margin: 0 3% 0% 3%;
-	padding:3%;
+#img_div{
+	margin:0% 3%;
+	padding: 0% 3%;
 }
 
+.middle-img{
+	width:100%;
+}
 /* styling for bottom sections*/
-
 #container2{
 	border:blue solid;
-	margin:0 auto;
+	margin:3%;
 }
 
 #services, #product, #vision{
