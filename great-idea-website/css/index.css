@@ -80,28 +80,33 @@ nav a{
 }
 
 /*start of the header styling*/
-#title {
+#title-div {
+	margin:0% 3%;
 	padding:3%;
-	color:orange;
-	border:solid;
 }
-#title h1{
-	border: black;
+#title h1, button{
 	text-align: center;
 	margin-right:50%;
 	font-size: 500%;
 }
 
+#title button{
+	font-size:100%;
+	margin-left:22%;
+	padding: 1%;
+	border: black 2px;
+}
+
 
 #circle_img{
-	margin-left: 70% ;
+	margin:-17% 0% 0% 70% ;
 }
 
 
 /* Start of the middle area under header*/
 
 #container1{
-	margin:0 auto;
+	margin:0 3%;
 	border:solid black 1px;
 }
 
