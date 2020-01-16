@@ -106,26 +106,15 @@ nav a{
 /* Start of the middle area under header*/
 
 #container1{
-	margin:0% 3%;
+	margin:3% 4%;
 	border-top: black solid 1px;
-}
-
-#features{
-	width:40%;
-	margin:2% 3% 2% 3%;
-	display: inline-block;
-}
-
-#about{
-	width:40%;
-	margin:0% 0% 0% 12%;
-	display: inline-block;
+	column-count:2 ;
 }
 
 /* styling for middle image*/
 #img_div{
 	margin:0% 3%;
-	padding: 0% 3%;
+	padding: 0% 1%;
 }
 
 .middle-img{
@@ -133,22 +122,17 @@ nav a{
 }
 /* styling for bottom sections*/
 #container2{
-	border:blue solid;
-	margin:3%;
+	margin:3% 4%;
+	column-count:3 ;
+	padding-bottom: 3%;
+	border-bottom: black solid 1px;
 }
 
-#services, #product, #vision{
-	border: blue solid; 
-	width:25%;
-	margin: 3% 4% 3% 4%;
-	padding:0% 3% 0% 3%;
-	display: inline-block;
-}
 
 /* Styling for contact*/
 
 #contact{
-	margin-left: 3%;
+	margin-left: 4%;
 }
 
 #copyright{
